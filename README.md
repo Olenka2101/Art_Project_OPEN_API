@@ -17,8 +17,8 @@ The flexible design of the application makes it easily adaptable for various pur
   ⭐CSS3
 
 # 🎬 Demo
-![Screenshot 2025-05-09 162511]("Screenshot 2025-10-19 113418" src="https://github.com/user-attachments/assets/5e6f9849-3606-4165-b8ac-9a5c2352aff1" />
-125eb6b0ace7)
+<img width="455" height="669" alt="Screenshot 2025-10-19 113418" src="https://github.com/user-attachments/assets/3ea29c93-4b92-4327-b1bf-387c6101f244" />
+
  [Here is My Open API Project test run](https://github.com/Olenka2101/Art_Project_OPEN_API) 
 
 # ✨ Features
