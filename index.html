@@ -7,13 +7,52 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Claude Monet Art Gallery</h1>
-
-  <!-- Container where the artworks will show up -->
-  <div class="gallery" id="gallery"></div>
+    <header>
+      <nav>
+        <ul class="nav_bar">
+          <li><a href="#Monet">Monet</a></li>
+          <li><a href="#Picasso">Picasso</a></li>
+          <li><a href="#Van_Gogh">Van Gogh</a></li>
+          <li><a href="#Rembrandt">Rembrandt</a></li>
+          <li><a href="#Dali">Salvador Dalí</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="title">
+        <!-- Here is title for Gallery via JS -->
+      </section>
+      <div id="mainImage">
+        <!-- Here is my picture via JS -->
+        <!-- <img src="#" alt="Art picture" /> -->
       </div>
-    </div>
-   
+      <section id="Monet">
+        <!-- Here will be H2 with title of the gallery -->
+        <!-- Container where the Monet artworks will show up -->
+        <div class="galleryMonet" id="galleryMonet">
+          <!-- In div will be 
+           1 Picture of Art
+           2 The Name of Art
+           3 Date Created
+           4 Artist name, years
+           5 Short description -->
+        </div>
+      </section>
+      <section id="Picasso">
+        <div class="galleryPicasso" id="galleryPicasso"></div>
+      </section>
+      <section id="Van_Gogh">
+        <div class="galleryVanGogh" id="galleryVanGogh"></div>
+      </section>
+      <section id="Rembrandt">
+        <div class="galleryRembrandt" id="galleryRembrandt"></div>
+      </section>
+      <section id="Dali">
+        <div class="galleryDali" id="galleryDali"></div>
+      </section>
+    </main>
+
+    <!-- Footer added via JS -->
   </body>
 
   <script src="index.js"></script>
