@@ -1,4 +1,68 @@
-.btn {
-  color: fuchsia;
-  display: flex;
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 1.5em;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 1em;
+}
+
+/* Grid layout for artworks */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5em;
+  max-width: 62.5em;
+  margin: 0 auto;
+}
+
+/* Each artwork div/card */
+.artwork {
+  background: white;
+  border-radius: 0.63em;
+  box-shadow: 0 0.25em 0.37em rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+/*  zoom in  when hovered */
+.artwork:hover {
+  transform: scale(1.03);
+}
+
+img {
+  width: 100%;
+  height: 15.6em;
+  object-fit: cover;
+}
+
+.info {
+  padding: 0.62em;
+  text-align: left;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 0.31em;
+}
+
+.artist {
+  color: #555;
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+}
+.yearCreated {
+  color: #666363;
+  font-size: 0.9em;
+  margin-bottom: 0.31em;
+}
+
+.description {
+  font-size: 0.85em;
+  color: #666363;
 }
