@@ -1,3 +1,6 @@
+*{
+ box-sizing: border-box;
+}
 body {
   font-family: Arial, sans-serif;
   background: #f8f9fa;
@@ -7,13 +10,64 @@ body {
   padding: 1.5em;
 }
 
-h1 {
+header {
+  position: sticky;
+  background-color: #dddddd;
+  top: 0;
+  z-index: 1;
+  
+}
+nav ul {
+  box-shadow: 0.5em 0.2em 0.2em #6d6868;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style-type: none;
+  padding: 0.5em;
+  margin: 0.8em;
+}
+li a {
+  text-decoration: none;
+  padding: 0.4em;
+  font-size: 1.1rem;
+ color: #2c3e50;
+
+  border: solid transparent 0.1em;
+}
+
+.nav_bar li :hover {
+  background: #0000001a;
+  border: solid #b6b6b6 0.1em;
+  box-shadow: 0.2em 0.2em 0.2em #a7a5a5;
+  border-radius: 30% 10%;
+  opacity: 0.9;
+}
+
+h1,
+h2 {
   color: #2c3e50;
   margin-bottom: 1em;
 }
+h2 {
+  margin-top: 5em;
+}
 
 /* Grid layout for artworks */
-.gallery {
+.galleryMonet,
+.galleryPicasso,
+.galleryVanGogh,
+.galleryRembrandt,
+.galleryDali {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5em;
@@ -25,7 +79,7 @@ h1 {
 .artwork {
   background: white;
   border-radius: 0.63em;
-  box-shadow: 0 0.25em 0.37em rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.25em 0.37em #0000001a;
   overflow: hidden;
   transition: transform 0.2s;
 }
@@ -65,4 +119,15 @@ img {
 .description {
   font-size: 0.85em;
   color: #666363;
+}
+
+/* Footer added via JS */
+.footer_class {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+.footer_par {
+  font-weight: bold;
+  font-size: 1.1em;
 }
