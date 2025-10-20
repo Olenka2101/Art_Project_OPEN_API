@@ -1,16 +1,14 @@
- [Here is My Open API Project test run](https://github.com/Olenka2101/Art_Project_OPEN_API) 
- # 🚀My Project Name // Pet Adoption application
-Pet Adoption Application.
-A responsive web application designed to help users find pets available for adoption. 
-The app features intuitive filtering by animal type, and each pet listing includes a photo and a brief description to assist users in finding the perfect match.
+
+ # 🚀My Project Name // Art Project Open API
+This project uses the Art Institute of Chicago’s public API to create a responsive web application that takes users on a mini virtual tour of artworks by famous painters.
+Visitors can browse selected pieces and learn more about each individual artwork through detailed information pulled directly from the API.
 
 # 📖 Usage
 
-  Adoption Search Website
-This web application serves as a user-friendly tool for browsing animals available for adoption.
-It includes robust filtering capabilities, allowing users to search by all animals or narrow results by specific types.
-The flexible design of the application makes it easily adaptable for various purposes beyond pet adoption, such as movie databases, recipe collections, or product catalogs.
-  
+Art Project Open API
+This web application consumes data from the Art Institute of Chicago Open API to display dynamic artwork information. 
+Users can browse featured paintings, access detailed metadata for each piece, and experience smooth navigation across all devices through a responsive layout.
+
   # 💻 Technologies used
   ⭐Javascript
   ⭐HTML5
@@ -19,12 +17,11 @@ The flexible design of the application makes it easily adaptable for various pur
 # 🎬 Demo
 <img width="455" height="669" alt="Screenshot 2025-10-19 113418" src="https://github.com/user-attachments/assets/3ea29c93-4b92-4327-b1bf-387c6101f244" />
 
- [Here is My Open API Project test run](https://github.com/Olenka2101/Art_Project_OPEN_API) 
 
 # ✨ Features
 
-- Feature 1 Fetching raw dynamic JSON data from third party URL.
-- Feature 2 Responsive layout.
-- Feature 3 Filtering by different animal type.
-- Feature 4 Image / colors change on mouse hover and clicks.
+- Feature 1 Dynamic data integration: Uses the Art Institute of Chicago’s Open API to fetch and display real artwork data in real time.
+- Feature 2 Responsive design: The layout automatically adapts to all screen types and sizes for an optimal viewing experience.
+- Feature 3 Interactive Navigation: Simple, user friendly navigation guides visitors through a virtual mini tour of artworks.
+- Feature 4 Artwork exploration: Users can browse through selected pieces by famous artists and learn about each item’s title, artist, creation date, and short description.
 
