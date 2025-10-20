@@ -1,6 +1,6 @@
 
  # 🚀My Project Name // Art Project Open API
- You can look at this project here  art-project-open-api.vercel.app
+ You can look at this project here [ art-project-open-api.vercel.app](https://art-project-open-api.vercel.app/)
 This project uses the Art Institute of Chicago’s public API to create a responsive web application that takes users on a mini virtual tour of artworks by famous painters.
 Visitors can browse selected pieces and learn more about each individual artwork through detailed information pulled directly from the API.
 
